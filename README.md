@@ -34,7 +34,8 @@
 <h2>4.1. Pull code and clone repository:</h2>
 <ol>
     <li>Step 1: Click: </li>
-    ![](image/fork.png)
+    <img src="image/fork.png" alt="">
+    ![](images/fork.png)
     <li>Step 2: open cmd choose right folder</li>
     <li>Step 3: <strong>$ git clone https://github.com/iamtiendung2608/Python_Final.git</strong></li>
     <li>Step 4: <strong>$ git checkout -b new_Branch</strong></li>
@@ -46,10 +47,10 @@
 <h3>After finish upper step</h3>
 <ol>
     <li>Step 1: Compare & pull Request</li>
-    ![](image/pullRequest.png)
+    <img src="image/pullRequest.png" alt="">
     <li>Write details what you have done clearly in comment section</li>
-    ![](image/Brancd.png)
+    <img src="image/Brancd.png" alt="">
     <li>Finish Commit</li>
-    ![](image/Finish.png)
+    <img src="image/Finish.png" alt="">
 </ol>
 <h3>The rest let me do it</h3>
