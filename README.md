@@ -1,6 +1,7 @@
 # Python_Final
 <hr>
 <h1>1. Virtual Environment </h1>
+<h2>Because of the large venv is, i don't want it to go with github so i will tell you how to install and use it </h2>
 <h2>1.1. Installing: </h2>
     <div><strong>$ python -m venv venv</strong></div>
 <h2>1.2. Using: </h2>
