@@ -36,7 +36,6 @@
 <ol>
     <li>Step 1: Click: </li>
     <img src="image/fork.png" alt="">
-    ![](images/fork.png)
     <li>Step 2: open cmd choose right folder</li>
     <li>Step 3: <strong>$ git clone https://github.com/iamtiendung2608/Python_Final.git</strong></li>
     <li>Step 4: <strong>$ git checkout -b new_Branch</strong></li>
