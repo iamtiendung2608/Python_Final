@@ -1,13 +1,9 @@
 from django.contrib import admin
 from django.urls import path
+from homepage import views as homepage
 
 
 
-
-urlpatterns = [
-    '''Rooting url to function view and add tag name'''
-    '''CODE: Comment url work or a class'''
-
-
-
+urlpatterns = [ 
+     path('', homepage.get_store, name ='store'),
 ]
