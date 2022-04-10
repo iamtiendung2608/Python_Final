@@ -1,17 +1,34 @@
 {% extends 'main.html' %}
 {% load static %}
 {% block content %}
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="thumbnail" src="https://salt.tikicdn.com/cache/200x200/ts/product/7c/e8/34/4d3636aadb471cad0bf2f45d681e4f23.jpg">
-            <div class="box-element product">
-                <h6><strong>Product</strong></h6>
-                <button class = "btn btn-outline-secondary add-btn">Add to Cart</button>
-                <a href="#" class="btn btn-outline-success">View</a>
-                <h4>$20</h4>
+<div class="container" style = "padding-top: 70px;">
+    <div class="row clearfix">
+        <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card product_item">
+                <div class="body">
+                    <div class="cp_img">
+                        <img src="https://salt.tikicdn.com/cache/400x400/ts/product/38/21/47/eb00fd978105557112ea749271d93cd8.jpg" alt="Product" class="img-fluid">
+                        <div class="hover">
+                            <a href="" class="btn btn-primary btn-sm waves-effect"><i class="fa fa-info" aria-hidden="true"></i></a>
+                            <a href=""  class="btn btn-primary btn-sm waves-effect"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="product_details">
+                        <h5><a href="">Book </a></h5>
+                        <ul class="product_price list-unstyled">
+                            <li class="new_price">100$</li>
+                            <div class = "row" >
+                                {% comment %} {% for i in item.tag.all %}
+                                    <li ><a style="font-size: 15px" href="tag/{{i.id}}">#{{i}}</a></li>
+                                {% endfor %} {% endcomment %}
+                            </div>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 {% endblock content %}
   
 
