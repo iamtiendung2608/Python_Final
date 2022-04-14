@@ -48,7 +48,7 @@ body{
 }
 
 .product_item:hover .cp_img .hover {
-    display: block
+    display: block;
 }
 
 .product_item .cp_img {
@@ -305,6 +305,7 @@ body{
 }
 
 .card .body {
+    /* display: inline; */
     font-size: 14px;
     color: #424242;
     padding: 20px;
