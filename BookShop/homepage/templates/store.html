@@ -20,7 +20,7 @@
                                 <li class="new_price">{{book.price}}</li>
                                 {%for item in book.tag.all%}
                                 <div class = "row" >
-                                    <li ><a style="font-size: 15px" href="Tags/{{item.ID}}">#{{item.name}}</a></li>
+                                    <li ><a style="font-size: 15px" href="{% url 'tag' id=item.ID %}">#{{item.name}}</a></li>
                                 </div>
                                 {%endfor%}
                             </ul>
